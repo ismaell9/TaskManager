@@ -40,10 +40,12 @@ Update appsettings.json with your SQL Server connection string:
   "DefaultConnection": "Server=.;Database=TaskBoardDB;User ID=YourSqlUser;Password=YourSqlPassword;Trusted_Connection=True;TrustServerCertificate=True;"
 }
 ### 3. Apply migrations and seed data
-Run the following commands:
+Run the following command:
 
 dotnet ef database update
-Seeding is handled automatically on application startup (see below).
+
+
+Seeding is handled automatically on application startup.
 
 ### 4. Run the app
 
